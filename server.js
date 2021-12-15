@@ -9,5 +9,5 @@ server.use(cors());
 server.use(auth);
 server.use(router);
 server.use(middlewares);
-const port = process.env.PORT || 4000
-server.listen(port, () => console.log('Server is listening on PORT 3000'))
+const port = process.env.PORT || 5000
+server.listen(port, () => console.log('Server is listening on PORT 5000'))
